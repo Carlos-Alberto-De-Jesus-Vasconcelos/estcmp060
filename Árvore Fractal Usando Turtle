@@ -16,4 +16,4 @@ def y(sz,nivel):
         pencolor(0,255//nivel,0)
         rt(angulo)
         fd(-sz)
-y(80, 7)
+y(80,7)
