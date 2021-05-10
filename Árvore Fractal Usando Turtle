@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+from turtle import *
+speed('fastest')
+rt(-90)
+angulo=30
+def y(sz,nivel):   
+    if(nivel>0):
+        colormode(255)
+        pencolor(0,255//nivel,0)
+        fd(sz)
+        rt(angulo)
+        y(0.8*sz,nivel-1)
+        pencolor(0,255//nivel,0)
+        lt(2*angulo)
+        y(0.8*sz,nivel-1)
+        pencolor(0,255//nivel,0)
+        rt(angulo)
+        fd(-sz)
+y(80, 7)
